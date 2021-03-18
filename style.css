@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body {
+  background-color: #7ad9f7;
+  font-family: sans-serif;
+}
+.container {
+  padding: 1rem;
+  flex-direction: column;
+  height: 100%;
+}
+.fas {
+  margin-right: 0.2rem;
+}
+.fas:hover {
+  opacity: 0.8;
+}
+.add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  background-color: #a3dc51;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+button {
+  cursor: pointer;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.notes-container {
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+.notes {
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0.8rem;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.tools {
+  background-color: #f0fff8;
+  padding: 0.5rem;
+  justify-content: flex-end;
+}
+
+.tools button {
+  margin-right: 0.8rem;
+  color: #a3dc51;
+  background-color: transparent;
+}
+
+.editor {
+  background-color: white;
+}
+#editor {
+  height: 250px;
+  width: 300px;
+  resize: none;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  text-align: start;
+}
+.main {
+  height: 250px;
+  width: 300px;
+  padding: 1rem;
+  background-color: #effef9;
+}
+.hidden {
+  display: none;
+}
